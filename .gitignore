@@ -5,3 +5,7 @@ __pycache__/
 .env
 .streamlit/
 .DS_Store
+node_modules
+dist
+.env
+.vercel
