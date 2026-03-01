@@ -26,7 +26,7 @@ import {
   Area,
   Legend
 } from 'recharts';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button';
 import { StatsCard } from '@/components/StatsCard';
 import { ChartSkeleton } from '@/components/LoadingSkeleton';
 import { EmptyState } from '@/components/EmptyState';

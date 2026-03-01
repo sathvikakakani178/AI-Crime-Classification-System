@@ -11,7 +11,7 @@ import {
   Layers,
   Zap
 } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import { Card } from '@/components/UI/card';
 
 const methodologySteps = [
   {
@@ -106,7 +106,7 @@ export default function AboutPage() {
         </p>
         <p className="text-muted-foreground leading-relaxed">
           This tool is designed to assist law enforcement agencies, researchers, and analysts in 
-          quickly categorizing large volumes of crime reports, identifying patterns, and gaining 
+          qUIckly categorizing large volumes of crime reports, identifying patterns, and gaining 
           insights into crime trends.
         </p>
       </motion.section>
@@ -286,7 +286,7 @@ export default function AboutPage() {
         </p>
         <div className="mt-6 p-4 bg-muted/30 rounded-xl inline-block">
           <p className="text-sm text-muted-foreground">
-            For inquiries and collaborations, please visit our contact page.
+            For inqUIries and collaborations, please visit our contact page.
           </p>
         </div>
       </motion.section>

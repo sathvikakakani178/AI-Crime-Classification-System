@@ -15,7 +15,7 @@ import {
   BarChart3,
   RefreshCw
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button';
 import { StatsCard } from '@/components/StatsCard';
 import { ConfirmDialog } from '@/components/ConfirmDialog';
 import { 
@@ -165,7 +165,7 @@ export default function AdminDashboardPage() {
         />
       </div>
 
-      {/* Quick Actions */}
+      {/* QUIck Actions */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

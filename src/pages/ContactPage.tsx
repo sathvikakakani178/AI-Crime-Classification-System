@@ -14,10 +14,10 @@ import {
   Linkedin,
   Twitter
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Textarea } from '@/components/UI/textarea';
+import { Label } from '@/components/UI/label';
 import { saveContactSubmission } from '@/lib/storage';
 import { ContactSubmission } from '@/types/crime';
 import { useToast } from '@/hooks/use-toast';
@@ -39,7 +39,7 @@ export default function ContactPage() {
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       toast({
         title: 'Missing fields',
-        description: 'Please fill in all required fields.',
+        description: 'Please fill in all reqUIred fields.',
         variant: 'destructive'
       });
       return;
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 <Label htmlFor="message">Message</Label>
                 <Textarea
                   id="message"
-                  placeholder="Tell us more about your inquiry..."
+                  placeholder="Tell us more about your inqUIry..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="min-h-[150px] resize-none bg-muted/30 input-glow"
@@ -255,7 +255,7 @@ export default function ContactPage() {
           </div>
 
           <div className="glass-card p-6 bg-gradient-to-br from-primary/10 to-purple-500/10">
-            <h3 className="text-lg font-semibold mb-2">Need Quick Help?</h3>
+            <h3 className="text-lg font-semibold mb-2">Need QUIck Help?</h3>
             <p className="text-sm text-muted-foreground mb-4">
               Check out our About page for detailed information about the project and methodology.
             </p>

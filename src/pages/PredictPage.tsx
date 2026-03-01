@@ -10,9 +10,9 @@ import {
   Check,
   Sparkles
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Textarea } from '@/components/ui/textarea';
-import { Progress } from '@/components/ui/progress';
+import { Button } from '@/components/UI/button';
+import { Textarea } from '@/components/UI/textarea';
+import { Progress } from '@/components/UI/progress';
 import { CrimeBadge, getCrimeIcon } from '@/components/CrimeBadge';
 import { classifyCrime, generateId, ClassificationResult } from '@/lib/crimeClassifier';
 import { savePrediction } from '@/lib/storage';
