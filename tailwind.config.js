@@ -1,8 +1,15 @@
-import type { Config } from "tailwindcss";
+/** @type {import('tailwindcss').Config} */
 
-export default {
+const animate = require("tailwindcss-animate")
+
+module.exports = {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -14,8 +21,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        sans: ["Inter", "sans-serif"],
+        mono: ["JetBrains Mono", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -111,5 +118,5 @@ export default {
       },
     },
   },
-  plugins: [reqUIre("tailwindcss-animate")],
-} satisfies Config;
+  plugins: [animate],
+}
