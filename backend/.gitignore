@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+crime_model.joblib
+.env
+*.pyc
+*.pyo
+.DS_Store
